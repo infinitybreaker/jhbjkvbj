@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>StrikeGG</title>
+    <link rel="stylesheet" href="css/bulma.css"><script src="js/maina.js"></script>
+<style>
+    .card:hover{
+        cursor: pointer;
+        color:red;
+    }
+    .card:hover .card-header-title{
+        color:red;
+    }
+</style>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+<section class="hero is-success">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title">
+                Fullheight title
+            </h1>
+            <h2 class="subtitle">
+                Fullheight subtitle
+            </h2>
+
+        </div>
+    </div>
+</section>
+<input type="text" id="myInput" onInput="myFunction()">
+<p id="demo"></p>
+
+<div class="container">
+<div class="columns">
+    <div class="column" >
+        <div class="card" id="testColumn">
+            <a href="https://google.com" class="cardlink"></a>
+            <div class="card-image">
+                <figure class="image is-4by3">
+                    <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                </figure>
+            </div>
+            <div class="card-header" >
+                <div class="card-header-icon"></div>
+                        <div class="card-header-title" id="temp">header title</div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="column">
+        Second column
+    </div>
+    <div class="column">
+        Third column
+    </div>
+    <div class="column">
+        Fourth column
+    </div>
+</div>
+</div>
+
+
+</body>
+</html>
